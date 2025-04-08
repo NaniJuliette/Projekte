@@ -1,0 +1,47 @@
+/* CSS Document */
+body {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+#eintrag {
+    display: flex;
+    flex-direction: row;
+}
+
+#username,
+#password {
+    flex: 2;
+}
+
+#schicken {
+    flex: 1;
+}
+
+#schicken:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+#schwach {
+    color: red;
+}
+
+#ok {
+    color: orange;
+}
+
+#stark {
+    color: green;
+}
